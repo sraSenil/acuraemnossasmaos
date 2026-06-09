@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title tag="Marlidia Gomes de Carvalho">Marlidia Gomes de Carvalho</title>
+  <link rel="stylesheet" href="styles.css" />
+   <link rel="icon"  href="assets/logo3.png" />
+</head>
+<body>
+ 
+  <header class="site-header">
+    <div class="container">
+      <img src="assets/logo3.png" alt="Marlidia Gomes de Carvalho" class="logo" />
+      <button class="menu-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu">
+        <span class="label">Menu</span>
+      </button>
+      <nav class="site-nav" id="primary-navigation">
+        <a href="#home">Início</a>
+        <a href="#servicos">Meus Serviços</a>
+        <a href="#profissional">Sobre a profissional</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+     <a class="fab" href="https://wa.me/4896394076" ></a>
+     <section id="home" class="section-light hero" tag="Acupuntura">
+      <div class="container">
+        <h1>Acupuntura Sem Agulhas</h1>
+        <h1> em Florianopolis</h1>
+        </div>
+          <div class="container">
+        <h3>Conheça os benefícios da acupuntura sem agulhas em casos </h3>
+         <h3>  de dores agudas e cronicas , ansiedade, stress, depressao, </h3>
+         <h3>  crise de panico, problemas de sono, sintomas da menopausa, </h3>
+         <h3>  cosntipacao, alergias e muito mais!</h3>
+         </div>
+    <div class="container">
+        <a href=" https://wa.me/4896394076" class="button button-secondary">AGENDAR AVALIAÇÃO</a>
+     </div>
+    </section>
+
+
+    <section id="servicos" class="section-tabs">
+        <div class="container">
+        <h1>Conheça Meus Serviços</h1>
+        <h4>Após a avaliação, para caminhar em direção a cura do paciente, podem ser utilizados os seguintes recursos: </h4>
+        </div>
+        <div class="tab-container">
+    <!-- Botões -->
+    <div class="tab-buttons">
+        <button class="active" onclick="openTab(event, 'aba1')">Acupuntura sem agulhas</button>
+        <button onclick="openTab(event, 'aba2')">Terapia com florais de Bach</button>
+        <button onclick="openTab(event, 'aba3')">Chi Kung terapêutico</button>
+        <button onclick="openTab(event, 'aba4')">Constelação familiar</button>
+    </div>
+        
+        <div id="aba1" class="tab-content active">
+        <img src="assets/jin-shin-jiyutsu.png" alt="jin-shin-juitsu">
+        <p>Acupuntura sem agulhas, é uma prática de liberação das tensões que são as causas de vários sintomas no corpo nossos corpos possuem diversos caminhos energéticos que nutrem a vida em todas as nossas células quando um ou mais desses caminhos são bloqueados, este efeito de barragem pode levar a desconforto e até a dor. Este bloqueio ou estagnação não irá apenas perturbar a área local mas também continuará até desarmonizar os caminhos completos do fluxo de energia. Esse tratamento é indicado como complemento em casos agudos e crônicos. Atua no alívio de dores, desconfortos e disfunções físicas sobrecargas emocionais e falta de clareza mental. Este trabalho traz harmonia física, mental e espiritual.</p>
+          
+      </div>    
+
+            <div id="aba2" class="tab-content">
+         <img src="assets/florais.png" alt="florais de Bach">
+        <p>Terapia com florais de Bach, florais da Califórnia, florais do deserto e florais de Minas. Na terapia com floral indivíduo é visto como um todo, em vários aspectos: sua personalidade, situação atual, seus ideais, sua saúde física, seu contexto social, crenças, valores sua maneira de se relacionar consigo mesmo, com as pessoas e com os acontecimentos da vida .</p>
+    </div>    
+            <div id="aba3" class="tab-content">
+         <img src="assets/chi-kun.png" alt="chi-kung">
+        <p>Beneficia o metabolismo e previne a maioria das doenças da meia idade, tais como o endurecimento das artérias e articulações.
+É a arte chinesa de captar e fazer uso da energia universal ponto a expressão ticon tem vários significados um deles é a força da energia entre 161 técnicas oficializadas pelo governo chinês está a técnica WAN YUN KUNH (um caminho chamado) que foi encontrada em um mausoléu com registro de 206 anos A.C. o objetivo desta técnica é beneficiar a saúde das pessoas através da renovação da energia, através de exercícios mentais 70%, respiratórios 20%, corporais 10%, todos capacitando a pessoa desenvolver sua energia na relação com o universo.</p>
+    </div>   
+                <div id="aba4" class="tab-content">
+        <img src="assets/contelacao.jpeg" alt="constelação familiar">
+        <p>Círculos de construção de paz para situações não conflitivas e conflitivas. São práticas de justiça restaurativa baseadas em diálogo, escuta ativa e igualdade originados de tradições indígenas para fortalecer relacionamentos e resolver conflitos aplicáveis tanto em suas situações conflitivas (comportamento danosos e crimes) quanto não conflitivas  (prevenção, fortalecimento, comemoração, construção de equipe) utilizam um facilitador e um objeto da palavra para criar um espaço seguro e horizontal.</p>
+         </div>
+    </div
+    
+        </div>
+      </div>
+      <script>
+    // Função para alternar abas
+    function openTab(evt, tabId) {
+        const contents = document.querySelectorAll(".tab-content");
+        const buttons = document.querySelectorAll(".tab-buttons button");
+
+        // Esconde todas as abas
+        contents.forEach(c => c.classList.remove("active"));
+        buttons.forEach(b => b.classList.remove("active"));
+
+        // Mostra a aba clicada
+        document.getElementById(tabId).classList.add("active");
+        evt.currentTarget.classList.add("active");
+    }
+</script>
+    </section>
+
+ <section id="profissional" class="profissional-section" tag="Marlidia">
+   <div class="container2">
+          <h1>Conheça a profissional Marlídia Gomes de Carvalho </h1>
+   </div>
+      <div class="profissional-content container">
+       
+        <div class="profissional-copy">
+          <p>Me chamo Marlídia sou bacharel e licenciada em Ciências sociais, praticante autorizada de Jinshinjyutsu há 25 anos, conformação em terapia com florais tipo terapêutico e círculos de construção de paz em situações não conflitivas e conflitivas. 
+Utilizo em minha prática terapêutica a visão holística. Praticante autorizada de Jin shin jyutsu, uma antiga arte para harmonizar o homem total, mente, corpo e espírito à 25 anos pela Jin Shin Jyutsu, Inc. 8179 E. San Alberto Scottsdale, AZ 85258 USA. 
+Possui formação em terapia com florais, Chi Kung terapêutico, e círculo de construção de paz pela....
+Utilizo em minhas práticas terapêuticas a visão da medicina oriental que observa o ser humano de uma forma integral entendendo as relações entre as funções do organismo e as dores físicas emocionais, atividades mentais e órgãos dos sentidos ponto onde o desequilíbrio de um afeta o equilíbrio do outro. 
+
+O a cura com as mãos é a chave para uma vida com menos dores, estresse e ansiedade.
+
+Se permita, você merece! </p>
+        </div>
+        <div class="carousel">
+       
+    <div class="slides">
+        <img src="assets/528fa777174067c9518bb3be7c93639b.jpg" alt="Imagem 1">
+         <img src="assets/chi-kun.png" alt="Imagem 2">
+        <img src="assets/florais.png" alt="Imagem 3">
+    </div>
+    
+    
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+    <div class="dots"></div>
+</div>
+      </div>
+         <div class="container">
+        <a href=" https://wa.me/4896394076" class="button button-secondary">AGENDAR AVALIAÇÃO</a>
+      </div>
+
+<script>
+    const slides = document.querySelector('.slides');
+    const images = document.querySelectorAll('.slides img');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    const dotsContainer = document.querySelector('.dots');
+
+    let index = 0;
+    const total = images.length;
+
+    // Criar indicadores
+    for (let i = 0; i < total; i++) {
+        const dot = document.createElement('span');
+        dot.classList.add('dot');
+        if (i === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => goToSlide(i));
+        dotsContainer.appendChild(dot);
+    }
+    const dots = document.querySelectorAll('.dot');
+
+    function updateCarousel() {
+        slides.style.transform = `translateX(${-index * 100}%)`;
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
+    }
+
+    function nextSlide() {
+        index = (index + 1) % total;
+        updateCarousel();
+    }
+
+    function prevSlide() {
+        index = (index - 1 + total) % total;
+        updateCarousel();
+    }
+
+    function goToSlide(i) {
+        index = i;
+        updateCarousel();
+    }
+
+    nextBtn.addEventListener('click', nextSlide);
+    prevBtn.addEventListener('click', prevSlide);
+
+    // Troca automática a cada 4 segundos
+    setInterval(nextSlide, 4000);
+
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.site-nav');
+
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener('click', () => {
+        const open = mobileMenu.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+
+      document.querySelectorAll('.site-nav a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.remove('open');
+          menuToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+</script>
+</section>
+
+    <section id="contato" class="section-light contact-section">
+      <div class="container">
+        <h1>Contato</h1>
+        <h2>Entre em contato para tirar dúvidas e agendar uma avaliação.</h2>
+         <a class="insta" href="https://www.instagram.com/" ></a>
+         <a class="email" href="mailto:contato@meusite.com" ></a>
+          <a class="whats" href="https://wa.me/4896394076" ></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Meu Site. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
